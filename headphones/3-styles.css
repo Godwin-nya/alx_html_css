@@ -1,0 +1,20 @@
+/* ================= CONTACT ================= */
+.contact {
+    padding: 100px 0;
+}
+
+.contact-form {
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    font-size: 14px;
+}
