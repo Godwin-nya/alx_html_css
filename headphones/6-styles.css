@@ -1,0 +1,31 @@
+
+/* ================= RESULTS SECTION ================= */
+.results-section {
+    background-image: url('/headphones/alx_images/images/headphones_hero_2.jpg'); /* replace later */
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    color: white;
+}
+
+.pentagon-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.pentagon {
+    width: 150px;
+    height: 150px;
+    background: #ff4b6e;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pentagon h3 {
+    font-size: 32px;
+    color: white;
+}
